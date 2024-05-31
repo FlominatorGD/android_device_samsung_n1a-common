@@ -27,3 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.disable=1 \
     audio_hal.disable_two_mic=true
+
+# Power
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.config.hw_quickpoweron=true
